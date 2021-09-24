@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\mutah\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add ganache-cli mocha solc truffle-hdwallet-provide web3
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python39;C:\Program Files\Python39\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\mutah\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\mutah\AppData\Local\Microsoft\WindowsApps;C:\Users\mutah\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\mutah\AppData\Roaming\npm;C:\Users\mutah\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mutah\.dotnet\tools
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  16.6.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/truffle-hdwallet-provide: Not found
+      at Request.params.callback [as _callback] (C:\Users\mutah\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66992:18)
+      at Request.self.callback (C:\Users\mutah\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140763:22)
+      at Request.emit (node:events:394:28)
+      at Request.<anonymous> (C:\Users\mutah\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141735:10)
+      at Request.emit (node:events:394:28)
+      at IncomingMessage.<anonymous> (C:\Users\mutah\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141657:12)
+      at Object.onceWrapper (node:events:513:28)
+      at IncomingMessage.emit (node:events:406:35)
+      at endReadableNT (node:internal/streams/readable:1331:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
